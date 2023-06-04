@@ -54,9 +54,9 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-list-numbered:before { content: '\e800'; } /* '' */
+.icon-list-numbered:before {margin: 0 3px 5px 0; content: '\e800'; } /* '' */
 .icon-search:before { content: '\e801'; } /* '' */
-.icon-gift:before { content: '\e802'; } /* '' */
+.icon-gift:before { padding-bottom: 7px; content: '\e802'; } /* '' */
 .icon-book-open:before { content: '\e803'; } /* '' */
 .icon-chat:before { content: '\e804'; } /* '' */
 .icon-down-open:before { content: '\e805'; } /* '' */
@@ -65,5 +65,5 @@
 .icon-dollar:before { text-decoration: line-through; content: '\f155'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-handshake-o:before { content: '\f2b5'; } /* '' */
-.icon-boosty:before {  content: url('../img/boosty-icon.svg');}
+.icon-handshake-o:before { margin-right: 7px; content: '\f2b5'; } /* '' */
+.icon-boosty:before { margin: 7px 5px 0px 7px; content: url('../img/boosty-icon.svg');}
