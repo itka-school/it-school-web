@@ -3,6 +3,8 @@
   --color2: #52339a;
 }
 
+/* Цвета */
+
 .color1 {
   color: var(--color1);
 }
@@ -19,6 +21,8 @@
   background-color: var(--color2);
 }
 
+/* Общие настройки разделов сайта */
+
 header,
 footer,
 section {
@@ -30,6 +34,7 @@ header {
 }
 
 /*
+* Градиентный кроссбраузреный фон для header и footer
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
@@ -53,6 +58,8 @@ footer {
     var(--color2) 100%
   );
 }
+
+/* heder */
 
 .main_header {
   margin-top: 10px;
@@ -95,6 +102,37 @@ footer {
   background-color: var(--color1);
 }
 
+/* О курсе */
+
+.about {
+  background-color: #eee;
+}
+
+.about span {
+  font-size: 25px;
+  color: var(--color2);
+}
+
+.its-circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color1); 
+  margin: 15px auto 30px;
+}
+
+/* Модальное окно */
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -118,6 +156,8 @@ footer {
     width: 80%;
   }
 } */
+
+/* Медиазапросы для адаптивной верстки */
 
 @media (max-width: 576px) {
   .logo-img {

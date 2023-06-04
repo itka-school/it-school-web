@@ -62,7 +62,7 @@
 .icon-down-open:before { content: '\e805'; } /* '' */
 .icon-up-open:before { content: '\e806'; } /* '' */
 .icon-mail:before { content: '\e807'; } /* '' */
-.icon-dollar:before { content: '\f155'; } /* '' */
+.icon-dollar:before { text-decoration: line-through; content: '\f155'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-handshake-o:before { content: '\f2b5'; } /* '' */
