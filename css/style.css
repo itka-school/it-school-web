@@ -105,7 +105,8 @@ footer {
 /* О курсе */
 
 .about,
-.shedule {
+.shedule,
+.aboutus {
   background-color: #eee;
 }
 
@@ -177,6 +178,8 @@ footer {
   border: 3px solid var(--color1);
 }
 
+
+
 /* @includes media-breakpoint-down(sm) {
   .logo-img {
     width: 80%;
@@ -186,7 +189,7 @@ footer {
 /* Медиазапросы для адаптивной верстки */
 
 @media (max-width: 576px) {
-  .logo-img {
+  .its_logo {
     width: 80%;
   }
 }
