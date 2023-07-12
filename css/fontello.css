@@ -59,8 +59,8 @@
 .icon-gift:before { padding-bottom: 7px; content: '\e802'; } /* '' */
 .icon-book-open:before { content: '\e803'; } /* '' */
 .icon-chat:before { content: '\e804'; } /* '' */
-.icon-down-open:before { content: '\e805'; } /* '' */
-.icon-up-open:before { content: '\e806'; } /* '' */
+/* .icon-down-open:before { content: '\e805'; } /* '' */
+/*.icon-up-open:before { content: '\e806'; } /* '' */ 
 .icon-mail:before { content: '\e807'; } /* '' */
 .icon-dollar:before { text-decoration: line-through; content: '\f155'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
